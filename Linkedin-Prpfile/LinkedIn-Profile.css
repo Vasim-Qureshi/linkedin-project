@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body{
+    background-color: #e8e4e1;
+  }
+  
+  .header {
+    background-color: rgb(255,255, 255);
+    width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 240px 10px 200px;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+  }
+  
+  .logo {
+    border-radius: 5%;
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+  }
+
+  .search-box{
+    display: flex;
+    width: 280px;
+    border-radius: 5px;
+    background-color:rgb(198, 222, 230);
+  }
+
+  .search-box > div{
+    margin:8px 0px 8px 15px;
+  }
+  
+  .search-bar {
+    width: 240px;
+    background-color: rgb(198, 222, 230);
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+  }
+
+  .header-right > nav{
+    display: flex;
+    text-align: center;
+  }
+
+  .header-right nav hr{
+    margin-left: 15px;
+  }
+
+  
+  .header-right nav a {
+    color: #6f6d6d;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+
+  .header-right > div{
+    display: flex;
+  }
+  
+   .container{
+    margin: 0 180px;
+  }
+
+   /* main div class */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .sidebar-right {
+    width: 25%;
+  }
+
+  .sidebar-left{
+    width: 20%;
+  }
+
+  .sidebar-left > div, .sidebar-right > div{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .header .profile-pic{
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-left .profile-pic {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .feed .profile-pic{
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .sidebar-right h3, .sidebar-left h3 {
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sidebar-right ul, .sidebar-left ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .sidebar-right ul li, .sidebar-left ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-right ul li a, .sidebar-left a {
+    display: flex;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .sidebar-right ul li a:hover, .sidebar-left a:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar-right ul li > span{
+    color: gray;
+  }
+  
+  .profile-summary h2 {
+    font-size: 18px;
+  }
+
+  /* center panal of main section */
+  .feed {
+    width: 50%;
+  }
+
+  .feed .links{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .feed .links a{
+    text-decoration: none;
+  }
+  
+  .feed .links a span{
+    color: black;
+  }
+
+  .post {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .post .post-section{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+  }
+
+  .post .post-write{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 480px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 30px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-author-pic {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-content img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+ 
